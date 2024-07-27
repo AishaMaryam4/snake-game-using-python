@@ -43,7 +43,7 @@ class Game:
 
     def on_render(self):
         self._display_surf.fill((0,0,0))
-        #self._display_surf.blit(self._snake_image, (self.player.x,self.player.y)) 
+         
 
         for pos in self.player.positions:
             self._display_surf.blit(self._snake_image, (pos[0],pos[1])) 
